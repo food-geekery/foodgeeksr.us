@@ -13,13 +13,13 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Food Geekery
-subtitle: obligatory yum jokes
+title: food geekery
 email: mayhens@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  fork all the eats. apt-get install noms. if you are a linux geek and you like 
-  food and beverages, you might like it here.
-twitter_username: foodgeekery
+  A site for open source, Linux, and food geeks and enthusiasts to share
+  recipes, gear review, food stories, and argue about coffee making
+  techniques and Linux distros.
+twitter_username: foodgeekery1
 github_username: food-geekery
 minimal_mistakes_skin: default
 search: true

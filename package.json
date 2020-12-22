@@ -4,10 +4,7 @@
   "description": "Click [**Use this template**](https://github.com/mmistakes/mm-github-pages-starter/generate) button above for the quickest method of getting started with the [Minimal Mistakes Jekyll theme](https://github.com/mmistakes/minimal-mistakes).",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "dev": "jekyll serve"
   },
   "repository": {
     "type": "git",

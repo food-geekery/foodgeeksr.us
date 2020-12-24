@@ -1,0 +1,49 @@
+/***************************
+ * Common Colours
+ * (See also: themes/*.scss)
+****************************/
+/* Footer */
+$ambiant-bg: #3C3B37;
+$ambiant-text-colour-light: #DED9CB;
+$ambiant-text-colour-dark: #7F7F7D;
+
+/* Misc */
+$danger: #C03831;
+$rss: #E19424;
+
+/* Alert Colours (taken from GTK theme) */
+$alert-error: #E43E32;
+$alert-error-text: #FFF;
+$alert-warning: #FEFECD;
+$alert-warning-text: #000;
+
+/************************
+ * Dimensions
+*************************/
+$header-height: 60px;
+
+/************************
+ * Discourse inspired Dropdowns
+*************************/
+$dropdown-border: 1px solid #E9E9E9;
+$dropdown-shadow: 0 8px 14px rgba(0,0,0,0.15);
+
+/************************
+ * Bootstrap Grid
+*************************/
+$xs: 576px - 1px;
+$sm: 768px - 1px;
+$md: 992px - 1px;
+$lg: 1200px - 1px;
+
+/************************
+ * Animations
+*************************/
+$transition-duration: 0.3s;
+$transition-timing: ease-in-out;
+
+/************************
+ * Fonts
+*************************/
+$primary-font: "Ubuntu", "Ubuntu-Embed", "Roboto", "Oxygen", "Cantarell", "Fira Sans", "Droid Sans", -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+$monospace-font: "Ubuntu Mono", monospace;

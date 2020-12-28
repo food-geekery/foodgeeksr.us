@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+
+  {% include head.html %}
+
+  <body>
+
+    <script>
+        // For browsers that do not support dark mode via CSS.
+        if (localStorage.getItem("dark") == "true") {
+            document.getElementById("dark-sheet").media = "";
+        }
+    </script>
+
+    {% include header.html %}
+
+    <main class="page-content" aria-label="Content">
+
+        {{ content }}
+
+    </main>
+
+    {% include footer.html %}
+
+    <script src="/assets/ubuntu-mate.js"></script>
+
+  </body>
+
+</html>

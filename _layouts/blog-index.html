@@ -1,0 +1,46 @@
+---
+layout: default
+---
+<article class="page">
+
+    <div class="container">
+
+        <div class="row">
+            <header class="page-header col">
+                <h1 class="page-title">{{ page.title | escape }}</h1>
+            </header>
+        </div>
+
+        <div class="row blog-column">
+            <content class="page-content col">
+
+            {% for post in site.posts %}
+                {% assign year = post.date | slice: 0,4 | plus: 0 %}
+
+                <a class="post-card {% if year < 2019 %}old{% endif %}" href="{{ post.permalink }}">
+                    <h3 class="post-card-title">{{ post.title }}</h3>
+
+                    {% include partials/blog-metadata.html
+                        post = post
+                    %}
+
+                    <div class="post-card-excerpt">
+                        {{ post.excerpt | strip_html }}
+                    </div>
+
+                    <div class="post-card-read-more">{{ site.data.strings.read_more }}</div>
+                </a>
+
+            {% endfor %}
+
+            <a id="show-old-posts" onclick="show_all_posts(); event.preventDefault();" onkeydown="show_all_posts();" tabindex="0">{{ site.data.strings.show_all }}</a>
+
+            </content>
+
+            {% include partials/blog-sidebar.html %}
+
+        </div>
+
+    </div>
+
+</article>

@@ -1,0 +1,39 @@
+reviews:
+    - category_string_name: reviews
+      items:
+        - string_name: coffee_tea_gear
+          icon: 
+          url: /reviews/coffee-tea-gear/
+
+        - string_name: bbq_gear
+          icon: 
+          url: /reviews/bbq-gear/
+
+        - string_name: appliances
+          icon: 
+          url: /reviews/appliances/
+
+        - string_name: cookware
+          icon: 
+          url: /reviews/cookware/
+
+        - string_name: utensils
+          icon: 
+          url: /reviews/utensils/
+
+        - string_name: beans_leaves
+          icon: 
+          url: /reviews/beans-leaves/
+
+        - string_name: rubs_sauces
+          icon: 
+          url: /reviews/rubs-sauces/
+
+        - string_name: adult_beverages
+          icon: 
+          url: /reviews/adult-beverages/
+
+        - string_name: sweet_stuff
+          icon: 
+          url: /reviews/sweet-stuff/
+

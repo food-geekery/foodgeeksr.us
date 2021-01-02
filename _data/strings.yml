@@ -1,0 +1,98 @@
+#######################################
+# Header/Footer
+#######################################
+homepage: "Home Page"
+search: "Search"
+edit_page: "Improve this page"
+recent_changes: "Recent Changes"
+dark_mode: "Dark Mode"
+light_mode: "Light Mode"
+
+
+#######################################
+# Navigation
+#######################################
+about: "About"
+blog: "Blog"
+reviews: "Reviews"
+shop: "Buy Our Favs"
+funding: "Support"
+
+
+
+#######################################
+# Months
+#######################################
+jan: "January"
+feb: "February"
+mar: "March"
+apr: "April"
+may: "May"
+jun: "June"
+jul: "July"
+aug: "August"
+sep: "September"
+oct: "October"
+nov: "November"
+dec: "December"
+
+
+
+#######################################
+# Blog
+#######################################
+latest_blogs: "Latest"
+archived_blogs: "Archives"
+read_more: "Read more..."
+category_review: "Review"
+category_recipe: "Recipe"
+category_story: "Food Story"
+outdated_post: "This post is more than a year old and may be outdated."
+
+
+
+#######################################
+# Reviews
+#######################################
+
+# Items
+coffee_tea_gear: "Coffee and Tea Gear"
+bbq_gear: "BBQ Gear"
+appliances: "Appliances"
+cookware: "Cookware"
+utensils: "Utensils"
+beans_leaves: "Coffee Beans and Tea Leaves"
+rubs_sauces: "Rubs and Sauces"
+adult_beverages: "Adult Beverages"
+sweet_stuff: "Sweet Stuff"
+
+
+
+#######################################
+# Funding
+#######################################
+js_required: "JavaScript needs to be enabled in your browser to use this form."
+paypal_monthly: "Monthly PayPal Supporter"
+paypal_one_time: "One time PayPal donation"
+paypal_select: "Select an amount"
+paypal_specify: "Specify your own amount"
+paypal_currency: "Currency"
+paypal_submit: "Submit"
+paypal_invalid_amount: "Please enter a valid amount - thanks!"
+
+
+
+
+#######################################
+# Miscellaneous
+#######################################
+site_description: "
+A community developed, Ubuntu based operating system that beautifully
+integrates the MATE desktop.
+
+Ubuntu MATE is a stable, easy-to-use operating system with a configurable
+desktop environment. Ideal for those who want the most out of their computers
+and prefer a traditional desktop metaphor. With modest hardware requirements
+it is suitable for modern workstations, single board computers and older
+hardware alike."
+
